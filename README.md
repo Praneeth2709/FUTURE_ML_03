@@ -29,7 +29,9 @@ source venv/bin/activate
 3. Install Required DependenciesEnsure your package manager fetches explicit system footprints down from the requirements.txt file tree, including the downstream spaCy reference tags:Bashpip install -r requirements.txt
 python -m spacy download en_core_web_sm
 4. Execute the Application EngineBashstreamlit run app.py
-📊 Evaluation & Metrics LogicThis decision-support framework analyzes text arrays based on normalized structural overlap. The baseline profile metric maps vector similarity scores safely via a hyperbolic tangent calibration layer ($\tanh$ scaling optimization) to securely establish valid, readable structural ranges:$$ATS\ Score = \tanh(\text{Raw Cosine Score} \times 1.8) \times 100$$This safeguards candidate ranking boundaries, isolates background computational text noises, and provides actionable HR metrics tracking for technical reviewers and startup recruitment stakeholders alike.👤 Developer SpaceLead Engineer: Praneeth VarmaProject Track: Future Interns Machine Learning Cohort Assignment Task
+
+## Evaluation & Metrics Logic
+This decision-support framework analyzes text arrays based on normalized structural overlap. The baseline profile metric maps vector similarity scores safely via a hyperbolic tangent calibration layer ($\tanh$ scaling optimization) to securely establish valid, readable structural ranges:$$ATS\ Score = \tanh(\text{Raw Cosine Score} \times 1.8) \times 100$$This safeguards candidate ranking boundaries, isolates background computational text noises, and provides actionable HR metrics tracking for technical reviewers and startup recruitment stakeholders alike.👤 Developer SpaceLead Engineer: Praneeth VarmaProject Track: Future Interns Machine Learning Cohort Assignment Task
 
 
 ---
