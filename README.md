@@ -1,4 +1,4 @@
-# FUTURE_ML_03
+# Align Match
 # 🤖 AI Resume Screening & Candidate Ranking Dashboard
 
 An automated, ML-driven hiring decision-support platform designed to parse unstructured resume data, extract critical domain skills, evaluate profile alignments, and systematically rank candidate pipelines against dynamic job requirements. 
